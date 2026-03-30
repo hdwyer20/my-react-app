@@ -4,6 +4,11 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+
+function Square({ value }){
+  return <button className="square">{value}</button>;
+}
+
 export default function Board(){
   return (
     <>
@@ -28,6 +33,4 @@ export default function Board(){
 
 }
 
-function Square(){
-  return <button className="square">1</button>;
-}
+
